@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Moderustic", sans-serif;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(0 0 0);
+    background-image: url(Background.jpg);
+    height: 80vh;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.logos{
+    font-size: 3rem;
+    color: white;
+    padding: 20px;
+    margin: 13px;
+    
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3.5rem auto;
+}
+li{
+    color: white;
+    font-size: 3rem;
+    margin: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+li:hover{
+    border-bottom: 2px solid white;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100rem;
+    height: 600px;
+    margin: 22rem auto;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-size: 3rem;
+    color: white;
+    text-transform: uppercase;
+    line-height: 2;
+}
+.description{
+    font-size: 2rem;
+    line-height: 1.5;
+    color: white;
+}
+input{
+    width: 800px;
+    padding: 30px;
+    border: none;
+    border-radius: 12px;
+    margin: 2rem auto;
+}
+input:focus{
+    outline: none;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50vh;
+    margin: 5rem auto;
+    
+}
+.menu1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50rem;
+    height:960px;
+    background-color:blue;
+    color: white;
+    margin: 15px auto;
+    border: 2px solid white;
+    border-radius: 2rem;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+    height:650px;
+    border-radius: 2rem;
+    
+}
+
+.one img{
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50rem;
+    height: 295px;
+    color: white;
+
+}
+.title2{
+    font-size: 2.8rem;
+    
+    color:white
+
+}
+.description2{
+    font-size: 2rem;
+    color: white;
+    line-height: 1.1;
+}
+.title3{
+    font-size:3rem;
+    text-align: center;
+    color: black;
+    margin: 1rem auto;
+    background-color: skyblue;
+    padding: 15px;
+}
+.menu2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    height:20vh;
+    background-color: skyblue;
+    margin: 0.5rem auto;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50rem;
+    height: 250px;
+    margin: 10px ;    
+}
+.three{
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+    height: 100px;
+}
+.three_text{
+    font-size: 3.5rem;
+}
+span{
+    color: blueviolet;
+
+}
+.three_p{
+    font-size: 1.7rem;
+}
+
+
+ .qoraal{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    margin: 3rem auto;
+ }
+
+.qeybo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    gap: 13px;
+    margin: 13px auto;
+
+}
+.qeybguud{
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    width: 100rem;
+    flex-wrap: wrap;
+    border-radius: 2rem;
+    margin: auto;
+}
+.qeyb1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 905px;
+    background-color: black;
+}
+
+.qeyb1 img{
+    display: block;
+    width: 100%;
+    border-radius: 2rem;
+    height: 100%;
+}
+.qeyb1_partone {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 905px;
+    background-color: black;
+}
+.qeyb1_partone img {
+    display: block;
+    width: 100%;
+    border-radius: 2rem;
+    height: 100%;
+}
+.qeyb1_parttwo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 905px;
+    background-color: black;
+}
+.qeyb1_parttwo img {
+    display: block;
+    width: 100%;
+    border-radius: 2rem;
+    height: 100%;
+}
+.qeyb1_partthree {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 905px;
+    background-color: black;
+}
+.qeyb1_partthree img {
+    display: block;
+    width: 100%;
+    border-radius: 2rem;
+    height: 100%;
+}
+.qeyb1_partfour {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 905px;
+    background-color: black;
+}
+.qeyb1_partfour img {
+    display: block;
+    width: 100%;
+    border-radius: 2rem;
+    height: 100%;
+}
+.title5{
+    font-size: 2.6rem;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: skyblue;
+    padding: 14px;
+}

@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+    
+}
+header{
+    display: flex;
+    background-color: black;
+    border-radius: 1rem;
+    color: white;
+    flex-direction: row;
+}
+.logo{
+    font-size: 3rem;
+    margin: 10px;
+    padding: 10px 20px;
+    position: relative;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem auto;
+    padding: 10px 20px;
+}
+ol{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    padding: 10px 20px;
+    font-size: 3rem;
+}
+ol li{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+ol li:hover{
+    color: black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem auto;
+    background-color: lightblue;
+    width:50rem;
+    height: 800px;
+}
+h1{
+    font-size: 3.9rem;
+    text-align: center;
+    margin: 3rem auto;
+}
+form{
+    display: flex;
+    margin: 5rem;
+    flex-direction: column;;
+}
+label{
+    font-size: 2rem;
+    text-align: left;
+    display: block;
+}
+input{
+    width: 600px;
+    padding: 30px;
+    margin: 13px;
+    border: none;
+    border-radius: 1rem;
+}
+input:focus{
+    outline: none;
+    border: 2px soli skyblue;
+}
+button{
+    width: 600px;
+    margin: 1rem auto;
+    border: none;
+    border-radius: 2rem;
+    background-color: black;
+    color: white;
+    font-size: 3rem;
+    padding: 20px;
+}
+p{
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-style: normal;
+}
+a{
+    color: black;
+}

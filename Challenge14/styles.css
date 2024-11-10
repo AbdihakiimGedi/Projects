@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 2.3rem;
+    background-color: #2b2b32;
+    color: white;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 2.4rem;
+    padding: 30px 10px;
+    margin: 2rem;
+    position: relative;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+ol{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+ol li{
+    font-size: 2.3rem;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    margin: 10px;
+    padding: 14px;
+    cursor: pointer;
+}
+#student_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 70px;
+}
+h2{
+    font-size:5rem;
+    text-transform: uppercase;
+    
+}
+section{
+    width: 80%;
+    margin: 0 auto 10px auto;
+}
+#namess{
+    width: 900px;
+    padding: 30px;
+    margin: 13px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+}
+#namess:focus{
+    outline: none;
+}
+#labels{
+    font-size: 3rem;
+    text-align: left;
+}
+.questions{
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin-top: 20px;
+    padding: 5px;
+}
+h3{
+    font-size: 3rem;
+    font-weight: 500;
+    font-style: normal;
+}
+legend{
+    font-size: 2.7rem;
+    text-align: left;
+}
+fieldset{
+    border: none;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    font-size: 3rem;
+}
+.choose{
+    font-size: 3rem;
+    padding: 20px;
+}
+.xariiq{
+    height: 50px;
+    border-bottom: 2px solid black;
+}
+#answer{
+    display: block;
+    width: 100%;
+    padding: 20px;
+    background-color: #0b0b34;
+    color: white;
+    border: none;
+    border-bottom: 5px solid white;
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+#answer:focus{
+    border: 3px solid skyblue;
+    outline: none;
+}
+button{
+    width: 30%;
+    padding: 30px;
+    border: none;
+    margin: 2rem auto;
+    font-size: 3rem;
+    background-color: green;
+    color: white;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer ;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}

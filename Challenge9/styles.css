@@ -1,0 +1,107 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+    background-color: white;
+ }
+ .container{
+        display: flex;
+        flex-direction: column;
+        margin: 15rem auto;
+        background-color: gray;
+        width: 100%;
+        height:100vh;
+    overflow: hidden;
+    padding: 20px 30px ;
+ }
+ table{
+    display: flex;
+    flex-direction: row;
+    padding: 15px ;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    
+ }
+ ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    position: relative;
+ }
+ th{
+    color: white;
+    font-size: 3rem;
+    margin: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    
+ }
+ table{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    color: white;
+    align-items: center;
+    
+ }
+ td{
+    font-size:2rem;
+    padding: 12px;
+    margin: 10px;
+ }
+th ,td{
+    border: 1px solid green;
+    padding: 15px;
+    border-width: 5px;
+    border-style: double;
+}
+th{
+    font-size: 4rem;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+td{
+    font-size: 2.7rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 10rem auto;
+}
+input{
+    width:600px;
+    margin: 15px;
+    padding: 40px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+
+}
+input:focus{
+    outline: none;
+
+}
+label{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: white;
+    text-align: left;
+    padding: 12px;
+}
+button{
+    display: block;
+    background-color: green;
+    color: white;
+    width: 500px;
+    border: none;
+    border-radius: 1rem;
+    padding: 40px;
+    margin: 1rem auto;
+    font-size: 3rem;
+    text-transform: uppercase;
+}

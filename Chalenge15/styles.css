@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #4b4b23;
+    color: white;
+    font-family: "Mochiy Pop P One", sans-serif;
+}
+  main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #title{
+    background-color: #0b0b32;
+    color: white;
+    margin: 2rem auto;
+    width: 100%;
+    padding: 30px;
+  }
+  h1{
+    font-size: 2.5rem;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .description{
+    font-size: 2.3rem;
+    margin: 1rem;
+    text-align: center;
+    font-style: italic;
+  }
+#img-div{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    width: 200rem;
+    height: auto;
+}
+img{
+    display: block;
+    width: 100%;
+    border-radius: 2rem;
+    height: auto;
+}
+#img-caption{
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    font-style: italic;
+}
+#tribute-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 1.5rem auto;
+}
+li{
+    margin: 12px;
+    padding: 10px;
+    font-size: 2rem;
+    line-height: 2;
+}
+span{
+    font-size: 2.6rem;
+
+}
+a{
+
+}
+#link{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#link a{
+    color: lightblue;
+}

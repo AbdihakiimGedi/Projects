@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge16</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="second">
+            <div class="labelss">
+
+        
+            <div class="one">
+                <label id="label1" for="one">0</label>
+            </div>
+            <div class="two">
+                <label id="label2" for="three">0</label>
+            </div>
+            <div class="three">
+                <label id="label3" for="three">0</label>
+            </div>
+            </div>
+            <div class="buttons">
+                <button id="btn1" type="button">Start</button>
+                <!-----
+                <button id="btn2" type="button">restart</button>
+                <button id="btn3" type="button">Clear</button>
+                ----->
+            </div>
+        </div>
+    </div>
+    <script>
+        let btn1=document.querySelector('#btn1')
+        let btn2=document.querySelector('#btn2')
+        let btn3=document.querySelector('#btn3')
+        let label1=document.querySelector('#label1')
+        let label2=document.querySelector('#label2')
+        let label3=document.querySelector('#label3')
+        let count=0;
+        let countmines=0;
+        btn1.addEventListener('click',()=>{
+            const randoms2=Math.floor(Math.random()* (9999999)-1000000 +1)+1000000
+            let together='061'+randoms2
+            label1.innerHTML=together
+        })
+            
+
+    
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2% auto;
+    width: 1800px;
+    height:1500px;
+    background-color: #0a0a23;
+}
+.one{
+    width:500px;
+    height: 500px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}

@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:   linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)), url('image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.logo{
+    position: relative;
+    font-size:1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    text-align: center;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-align: center;
+    justify-content: space-between;
+    align-items: right;
+
+}
+nav li{
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    font-size: 1.5rem;
+    text-transform:uppercase;
+    margin: 25px;
+    padding: 20px;
+    cursor: pointer;
+    
+}
+ul li:hover{
+    color: blue;
+}
+a{
+    color: white;
+    font-size: 5rem;
+}
+.container{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 94rem;
+    background-color: #0a0a23;
+    color: white;
+    margin: 5rem;
+    overflow: hidden;
+    margin-left: 45%;
+    flex-direction: row-reverse;
+    border-radius: 1rem;
+}
+.container-image{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 4rem;
+    object-fit: cover;
+    background-color: white;
+    opacity: 58%;
+    position: relative;
+}
+.container-image::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+}
+.container-text{
+    display: flex;
+    flex-direction: column;
+    width: 38rem;
+    padding: 20px;
+}
+.title{
+    font-size:2.3rem;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+
+}
+.description{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 10px;
+    line-height: 1.5;
+}
+span{
+    color: blueviolet;
+}

@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: wheat;
+}
+#main-doc{
+    display: block;
+}
+#navbar{
+    position: fixed;
+        text-decoration: none;
+        width: 10vw;
+        min-width: 300px;
+        left: 0px;
+        border-right: 1px solid #000;
+        background-color: #555;
+        height: 100%;
+        text-align: center;
+}
+#navbar header{
+    font-size: 2rem;
+    color: white;
+}
+#navbar a{
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+    margin: 19px;
+    color :white;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+}
+hr{
+    border: 3px solid black;
+}
+.main-section{
+    display: inline-block;
+        margin-left: 320px;
+        margin-top: 2rem;
+        position: relative;
+        white-space: none;
+        display: block;
+
+}
+.main-section header{
+    font-size: 2rem;
+}
+.main-section code{
+    background-color: white;
+    color: black;
+    font-size: 1.7rem;
+}
+.main-section p{
+    font-size: 18px;
+    line-height: 2;
+        font-family: sans-serif;
+        font-style: normal;
+        word-break: normal;
+        white-space: none;
+    
+}
+.main-section li{
+    font-size: 1.3rem;
+    line-height: 2.3;
+}
+@media screen  and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+     header {
+         font-size: 24px;
+         
+     }
+     }

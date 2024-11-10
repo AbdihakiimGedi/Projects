@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0a0a23;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20rem auto;
+    flex-direction: column;
+}
+.logo{
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+    padding: 30px;
+}
+input ,select{
+    margin: 10px;
+    border: none;
+    padding: 10px;
+}
+input{
+    width: 25rem;
+    font-size: 2rem;
+    margin: 4%;
+}
+select{
+    font-size: 2rem;
+    margin: 4%;;
+}
+input:focus{
+    outline-color: transparent;
+    border: 4px solid skyblue;   
+}
+select:focus{
+    outline: transparent;
+    border: 4px solid blue;
+}
+button{
+    width: 90%;
+    border: none;
+    border-radius: 3px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+label{
+    font-size: 1.6rem;
+}
+p{
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 5%;
+}
